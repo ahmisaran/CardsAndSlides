@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>My Cards</ion-title>
+    <ion-buttons end>
+    <button  (click)="enableInput($event, null)">
+    <ion-icon name="add-circle"></ion-icon>
+    </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+    
+    <card-input *ngIf="inputEnabled" (onNewData)="updateCards($event)" ></card-input>
+    <ion-card *ngFor="let card of cards"> 
+        <button ion-item (click)="itemTapped($event, null)">{{card.title}}</button>       
+    </ion-card>
+    
+    <button ion-item (click)="removeData($event, null)">Remove Data</button>
+    
+</ion-content>

@@ -1,0 +1,12 @@
+
+<form (ngSubmit)="addCard()">
+      <ion-item>
+        <ion-label floating>Card Title</ion-label>
+        <ion-input type="text" [(ngModel)]="inputCard.title" name="title"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Category</ion-label>
+        <ion-textarea [(ngModel)]="inputCard.content" name="content"></ion-textarea>
+      </ion-item>
+      <button ion-button type="submit">Add Card</button>
+    </form>
