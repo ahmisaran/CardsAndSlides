@@ -9,7 +9,7 @@ import {StorageProvider} from '../../providers/storage/storage'
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController/*, public storage : StorageProvider*/) {
+  constructor(public navCtrl: NavController, public storage : StorageProvider) {
 
   }
 

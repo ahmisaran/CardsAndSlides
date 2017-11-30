@@ -22,6 +22,12 @@ export class StorageProvider {
             this.cards = data;
           }
       })
+      
+      this.storage.get("Categories").then(data => {
+          if ( data != undefined) {
+            this.cards = data;
+          }
+      })
   }
   
   getData ( ):Array<cardDetail>{
@@ -29,13 +35,21 @@ export class StorageProvider {
       return this.cards;
   }
   
-  addCardDetails(card: cardDetail){
-    
-      console.log("Adding Card Details : " + card.title, card.content)
-      this.cards.push(card);
+  getDatabyKey(key : string){
+      return this.storage.get(key).then(data => {
+          return data
+      }, error =>{
+          
+      })
+  }
+  
+  addCardDetails(key , newEntry){
+      
+      //console.log("Adding Card Details : " + card.title, card.content)
+      this.cards.push(newEntry);
       
       return new Promise( resolve => {
-          this.storage.set("Cards", this.cards).then(data=>{
+          this.storage.set(key, this.cards).then(data=>{
           console.log("Cards Details Stored");
             return resolve(true)
         }, error=>{

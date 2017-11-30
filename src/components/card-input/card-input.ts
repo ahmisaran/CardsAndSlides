@@ -1,5 +1,4 @@
-import { Component , Output, EventEmitter} from '@angular/core';
-import { FormGroup , FormBuilder} from '@angular/forms'
+import { Component , Output, EventEmitter, Input} from '@angular/core';
 import { cardDetail } from '../../models/models'
 
 import { StorageProvider } from '../../providers/storage/storage'
@@ -23,8 +22,15 @@ export class CardInputComponent {
     } ;
   card : cardDetail ;
   msg : string = "Updated"
+  
   @Output()
 	onNewData : EventEmitter<string> = new EventEmitter<string>();
+  
+    @Input() key : string
+ /*   set key (key : string){
+        console.log("Key sent was  : " + key )
+        this._key = key;
+    }*/
   constructor(public storage : StorageProvider) {
     console.log('Hello CardInputComponent Component');
     this.inputCard 
@@ -37,9 +43,12 @@ export class CardInputComponent {
     dateCreated:NaN,
     dateModified:NaN} 
     
+    console.log("Input key is : " + this.key)
+    
   }
   
   addCard(){
+      console.log("Input key is ADD : " + this.key)
       let date = new Date();
       this.card.id = 1;
       this.card.title = this.inputCard.title;
@@ -48,7 +57,7 @@ export class CardInputComponent {
       this.card.dateCreated = date.getTime();
       this.card.dateModified = date.getTime();
       console.log("Adding :" + JSON.stringify(this.inputCard.title) + " to storage")
-      this.storage.addCardDetails(this.card).then(data=>{
+      this.storage.addCardDetails("Cards", this.card).then(data=>{
           if ( data != null){
               console.log("Content Added :" + JSON.stringify(data));
           this.onNewData.emit(this.msg);
