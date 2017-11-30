@@ -1,4 +1,13 @@
-<!-- Generated template for the SlideInputComponent component -->
-<div>
-  {{text}}
-</div>
+<form (ngSubmit)="addSlide()">
+  <h3>{{key}}</h3>
+    <ion-item>
+      <ion-label floating>Slide Title</ion-label>
+      <ion-input type="text" [(ngModel)]="inputSlide.title" name="title"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Description</ion-label>
+      <ion-textarea [(ngModel)]="inputSlide.content" name="content"></ion-textarea>
+    </ion-item>
+    
+    <button ion-button type="submit">Add Slide</button>
+  </form>

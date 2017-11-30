@@ -14,7 +14,7 @@
 
 <ion-content>
     
-    <card-input *ngIf="inputEnabled" [key]="key" (onNewData)="updateCards($event)"   ></card-input>
+    <card-input *ngIf="inputEnabled" [key]="key" [data]="cards" (onNewData)="updateCards($event)"   ></card-input>
     <ion-card *ngFor="let card of cards"> 
         <button ion-item (click)="itemTapped(card.title)">{{card.title}}</button>       
     </ion-card>

@@ -9,10 +9,21 @@
   <ion-navbar>
     <ion-title>slides</ion-title>
   </ion-navbar>
+  <ion-buttons end>
+      <button  (click)="enableCardInput($event, null)">
+      <ion-icon name="add"></ion-icon>
+      </button>
+      </ion-buttons>
 
 </ion-header>
 
 
 <ion-content padding>
+    <slide-input *ngIf="inputEnabled" [key]="key" [data]="slides" (onNewData)="updateSlides($event)"   ></slide-input>
+    <ion-slides *ngFor="let slide of slides"> 
+        <ion-slide>{{slide.title}}</ion-slide>
+    </ion-slides>
+    
+    <button ion-item (click)="removeData($event, null)">Remove Data</button>
 
 </ion-content>
