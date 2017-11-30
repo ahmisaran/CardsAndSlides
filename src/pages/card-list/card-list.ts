@@ -18,41 +18,38 @@ import {StorageProvider} from "../../providers/storage/storage"
   templateUrl: 'card-list.html',
 })
 export class CardListPage {
-   inputEnabled = 0;
+   inputEnabled : boolean = false;
    title : string;
    cards : Array<cardDetail> =[];
    category : string ;
    key : string;
-   component : any;
+
   constructor(public navCtrl: NavController, public navParams: NavParams, public storage: StorageProvider) {
       this.key = this.navParams.get("pageKey")
-      this.component = this.navParams.get("component")
       console.log("Key is : " + this.key )
 
   }
 
-  ionViewDidLoad() {
-    
-    console.log('ionViewDidLoad CardListPage');
-    console.log("Key is : " + this.key )
-    console.log("Compoenent is :" + this.component)
-    //this.cards = this.storage.getData()
+  ionViewDidLoad() {    
     this.storage.getDatabyKey(this.key).then(data => {
         console.log("Cards Data = " + JSON.stringify(data))
-        this.cards = data;
+        if ( data != null ){
+            this.cards = data;
+        }
     })
   }
   
-  itemTapped(event, item) {
-      console.log("Item Details : " + JSON.stringify(item));
-    this.navCtrl.push(this.component, {
-      pageKey: "Cards",
-      component : SlidesPage
+  itemTapped(title) {
+      console.log("Item Details : " + JSON.stringify(title));
+      let slidekey = this.key.concat(title);
+      console.log("Child Card Key : " + slidekey)
+    this.navCtrl.push(SlidesPage, {
+      pageKey: slidekey
     }); 
   }
   
   enableCardInput(event, Item){
-      this.inputEnabled = 1;
+      this.inputEnabled = true;
   }
   
   updateCards(msg){
@@ -68,10 +65,10 @@ export class CardListPage {
       for ( let card of this.cards){
           console.log("Card title is = " + card.title)
       }*/
-      this.inputEnabled = 0 ;
+      this.inputEnabled = false ;
   }
   
   removeData(){
-      this.storage.removeKeyData("Cards")
+      this.storage.removeKeyData(this.key);
   }
 }

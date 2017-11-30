@@ -1,51 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 101:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SlidesPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the SlidesPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var SlidesPage = (function () {
-    function SlidesPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    SlidesPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad SlidesPage');
-    };
-    SlidesPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-slides',template:/*ion-inline-start:"/Users/adichegu/Koorma/CardsAndSlides/src/pages/slides/slides.html"*/'<!--\n  Generated template for the SlidesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>slides</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/adichegu/Koorma/CardsAndSlides/src/pages/slides/slides.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
-    ], SlidesPage);
-    return SlidesPage;
-}());
-
-//# sourceMappingURL=slides.js.map
-
-/***/ }),
-
-/***/ 111:
+/***/ 110:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -58,11 +13,11 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 111;
+webpackEmptyAsyncContext.id = 110;
 
 /***/ }),
 
-/***/ 152:
+/***/ 151:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -75,18 +30,18 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 152;
+webpackEmptyAsyncContext.id = 151;
 
 /***/ }),
 
-/***/ 197:
+/***/ 196:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_storage_storage__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_storage_storage__ = __webpack_require__(40);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -106,74 +61,26 @@ var HomePage = (function () {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"/Users/adichegu/Koorma/CardsAndSlides/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Ionic Menu Starter</h3>\n\n  <p>\n    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.\n  </p>\n\n  <button ion-button secondary menuToggle>Toggle Menu</button>\n</ion-content>\n'/*ion-inline-end:"/Users/adichegu/Koorma/CardsAndSlides/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"/Users/adprasad/Code/Apps/CardsAndSlides/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Ionic Menu Starter</h3>\n\n  <p>\n    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.\n  </p>\n\n  <button ion-button secondary menuToggle>Toggle Menu</button>\n</ion-content>\n'/*ion-inline-end:"/Users/adprasad/Code/Apps/CardsAndSlides/src/pages/home/home.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__providers_storage_storage__["a" /* StorageProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_storage_storage__["a" /* StorageProvider */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__providers_storage_storage__["a" /* StorageProvider */]])
     ], HomePage);
     return HomePage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=home.js.map
 
 /***/ }),
 
-/***/ 198:
+/***/ 197:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CategoriesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__slides_slides__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_storage_storage__ = __webpack_require__(50);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-var ListPage = (function () {
-    function ListPage(navCtrl, navParams, storage) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.storage = storage;
-    }
-    ListPage.prototype.itemTapped = function (event, item) {
-        // this.storage.getData("Cards")
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__slides_slides__["a" /* SlidesPage */], {
-            item: item
-        });
-    };
-    ListPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-list',template:/*ion-inline-start:"/Users/adichegu/Koorma/CardsAndSlides/src/pages/list/list.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>My Cards</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n    <ion-card>\n        <button ion-item (click)="itemTapped($event, null)">Trainings</button>       \n    </ion-card>\n</ion-content>\n\n<!--ion-content>\n  <ion-list>\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n      <ion-icon [name]="item.icon" item-start></ion-icon>\n      {{item.title}}\n      <div class="item-note" item-end>\n        {{item.note}}\n      </div>\n    </button>\n  </ion-list>\n  <div *ngIf="selectedItem" padding>\n    You navigated here from <b>{{selectedItem.title}}</b>\n  </div>\n</ion-content-->\n'/*ion-inline-end:"/Users/adichegu/Koorma/CardsAndSlides/src/pages/list/list.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_storage_storage__["a" /* StorageProvider */]])
-    ], ListPage);
-    return ListPage;
-}());
-
-//# sourceMappingURL=list.js.map
-
-/***/ }),
-
-/***/ 199:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CardListPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__slides_slides__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_storage_storage__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_storage_storage__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__card_list_card_list__ = __webpack_require__(281);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -188,84 +95,78 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the CardListPage page.
+ * Generated class for the CategoriesPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var CardListPage = (function () {
-    function CardListPage(navCtrl, navParams, storage) {
+var CategoriesPage = (function () {
+    function CategoriesPage(navCtrl, navParams, storage) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.storage = storage;
-        this.inputEnabled = 0;
-        this.cards = [];
-        this.key = this.navParams.get("pageKey");
-        this.component = this.navParams.get("component");
-        console.log("Key is : " + this.key);
+        this.categories = [];
+        this.key = "categories";
+        this.inputEnabled = false;
     }
-    CardListPage.prototype.ionViewDidLoad = function () {
+    CategoriesPage.prototype.ionViewDidLoad = function () {
         var _this = this;
-        console.log('ionViewDidLoad CardListPage');
-        console.log("Key is : " + this.key);
-        console.log("Compoenent is :" + this.component);
-        //this.cards = this.storage.getData()
+        console.log('ionViewDidLoad CategoriesPage');
+        console.log("Categories toString : " + this.categories.toString());
         this.storage.getDatabyKey(this.key).then(function (data) {
             console.log("Cards Data = " + JSON.stringify(data));
-            _this.cards = data;
-        });
-    };
-    CardListPage.prototype.itemTapped = function (event, item) {
-        console.log("Item Details : " + JSON.stringify(item));
-        this.navCtrl.push(this.component, {
-            pageKey: "Cards",
-            component: __WEBPACK_IMPORTED_MODULE_2__slides_slides__["a" /* SlidesPage */]
-        });
-    };
-    CardListPage.prototype.enableCardInput = function (event, Item) {
-        this.inputEnabled = 1;
-    };
-    CardListPage.prototype.updateCards = function (msg) {
-        var _this = this;
-        this.storage.getDatabyKey(this.key).then(function (data) {
-            console.log("Cards Data = " + JSON.stringify(data));
-            _this.cards = data;
-            for (var _i = 0, _a = _this.cards; _i < _a.length; _i++) {
-                var card = _a[_i];
-                console.log("Card title is = " + card.title);
+            if (data != null) {
+                _this.categories = data;
             }
         });
-        /* this.cards = this.storage.getData();
-         console.log("Update List : " + this.cards)
-         for ( let card of this.cards){
-             console.log("Card title is = " + card.title)
-         }*/
-        this.inputEnabled = 0;
     };
-    CardListPage.prototype.removeData = function () {
-        this.storage.removeKeyData("Cards");
+    CategoriesPage.prototype.enableCategoryInput = function (event, Item) {
+        this.inputEnabled = true;
     };
-    CardListPage = __decorate([
+    CategoriesPage.prototype.itemTapped = function (title) {
+        console.log("Item Details : " + JSON.stringify(title));
+        this.key.concat(title);
+        console.log("Child Card Key : ", this.key);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__card_list_card_list__["a" /* CardListPage */], {
+            pageKey: title,
+        });
+    };
+    CategoriesPage.prototype.updateCategoryList = function (msg) {
+        var _this = this;
+        this.storage.getDatabyKey(this.key).then(function (data) {
+            console.log("Categories Data = " + JSON.stringify(data));
+            _this.categories = data;
+            for (var _i = 0, _a = _this.categories; _i < _a.length; _i++) {
+                var category = _a[_i];
+                console.log("Category title is = " + category.title);
+            }
+        });
+        this.inputEnabled = false;
+    };
+    CategoriesPage.prototype.removeData = function () {
+        this.storage.removeKeyData(this.key);
+    };
+    CategoriesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-card-list',template:/*ion-inline-start:"/Users/adichegu/Koorma/CardsAndSlides/src/pages/card-list/card-list.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>{{title}}</ion-title>\n    <ion-buttons end>\n    <button  (click)="enableCardInput($event, null)">\n    <ion-icon name="add"></ion-icon>\n    </button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n    \n    <card-input *ngIf="inputEnabled" [key]="key" (onNewData)="updateCards($event)"   ></card-input>\n    <ion-card *ngFor="let card of cards"> \n        <button ion-item (click)="itemTapped($event, card)">{{card.title}}</button>       \n    </ion-card>\n    \n    <button ion-item (click)="removeData($event, null)">Remove Data</button>\n    \n</ion-content>'/*ion-inline-end:"/Users/adichegu/Koorma/CardsAndSlides/src/pages/card-list/card-list.html"*/,
+            selector: 'page-categories',template:/*ion-inline-start:"/Users/adprasad/Code/Apps/CardsAndSlides/src/pages/categories/categories.html"*/'<!--\n  Generated template for the CategoriesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>categories</ion-title>\n  </ion-navbar>\n  <ion-buttons end>\n    <button  (click)="enableCategoryInput($event, null)">\n    <ion-icon name="add"></ion-icon>\n    </button>\n    </ion-buttons>\n</ion-header>\n\n\n<ion-content padding>\n  <card-input *ngIf="inputEnabled" [key]="key" [data]="categories" (onNewData)="updateCategoryList($event)"   ></card-input>\n  <ion-card *ngFor="let category of categories"> \n      <button ion-item (click)="itemTapped(category.title)">{{category.title}}</button>       \n  </ion-card>\n  \n  <button ion-item (click)="removeData($event, null)">Remove Data</button>\n  \n</ion-content>\n'/*ion-inline-end:"/Users/adprasad/Code/Apps/CardsAndSlides/src/pages/categories/categories.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__providers_storage_storage__["a" /* StorageProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__providers_storage_storage__["a" /* StorageProvider */]) === "function" && _c || Object])
-    ], CardListPage);
-    return CardListPage;
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__providers_storage_storage__["a" /* StorageProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_storage_storage__["a" /* StorageProvider */]) === "function" && _c || Object])
+    ], CategoriesPage);
+    return CategoriesPage;
     var _a, _b, _c;
 }());
 
-//# sourceMappingURL=card-list.js.map
+//# sourceMappingURL=categories.js.map
 
 /***/ }),
 
-/***/ 200:
+/***/ 198:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(222);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -273,7 +174,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 224:
+/***/ 222:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -281,17 +182,17 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_Storage__ = __webpack_require__(192);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(270);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(271);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(274);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_list_list__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_card_list_card_list__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_slides_slides__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_status_bar__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_splash_screen__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_storage_storage__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_Storage__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(268);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(272);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_card_list_card_list__ = __webpack_require__(281);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_categories_categories__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_slides_slides__ = __webpack_require__(282);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_status_bar__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_splash_screen__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_storage_storage__ = __webpack_require__(40);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -304,7 +205,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-//import { FormsModule , ReactiveFormsModule}   from '@angular/forms';
 
 
 
@@ -322,8 +222,8 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */],
                 __WEBPACK_IMPORTED_MODULE_7__pages_home_home__["a" /* HomePage */],
                 __WEBPACK_IMPORTED_MODULE_10__pages_slides_slides__["a" /* SlidesPage */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_card_list_card_list__["a" /* CardListPage */],
-                __WEBPACK_IMPORTED_MODULE_8__pages_list_list__["a" /* ListPage */]
+                __WEBPACK_IMPORTED_MODULE_8__pages_card_list_card_list__["a" /* CardListPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_categories_categories__["a" /* CategoriesPage */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -339,8 +239,8 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */],
                 __WEBPACK_IMPORTED_MODULE_7__pages_home_home__["a" /* HomePage */],
                 __WEBPACK_IMPORTED_MODULE_10__pages_slides_slides__["a" /* SlidesPage */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_card_list_card_list__["a" /* CardListPage */],
-                __WEBPACK_IMPORTED_MODULE_8__pages_list_list__["a" /* ListPage */]
+                __WEBPACK_IMPORTED_MODULE_8__pages_card_list_card_list__["a" /* CardListPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_categories_categories__["a" /* CategoriesPage */],
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_11__ionic_native_status_bar__["a" /* StatusBar */],
@@ -357,15 +257,15 @@ var AppModule = (function () {
 
 /***/ }),
 
-/***/ 271:
+/***/ 269:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ComponentsModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__card_input_card_input__ = __webpack_require__(272);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__slide_input_slide_input__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__card_input_card_input__ = __webpack_require__(270);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__slide_input_slide_input__ = __webpack_require__(271);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -397,13 +297,13 @@ var ComponentsModule = (function () {
 
 /***/ }),
 
-/***/ 272:
+/***/ 270:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CardInputComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_storage_storage__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_storage_storage__ = __webpack_require__(40);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -422,10 +322,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Components.
  */
 var CardInputComponent = (function () {
-    /*   set key (key : string){
-           console.log("Key sent was  : " + key )
-           this._key = key;
-       }*/
     function CardInputComponent(storage) {
         this.storage = storage;
         this.inputCard = {
@@ -435,6 +331,7 @@ var CardInputComponent = (function () {
         };
         this.msg = "Updated";
         this.onNewData = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* EventEmitter */]();
+        this.data = [];
         console.log('Hello CardInputComponent Component');
         this.inputCard;
         this.card = {
@@ -450,6 +347,7 @@ var CardInputComponent = (function () {
     CardInputComponent.prototype.addCard = function () {
         var _this = this;
         console.log("Input key is ADD : " + this.key);
+        console.log("Data received : " + JSON.stringify(this.data));
         var date = new Date();
         this.card.id = 1;
         this.card.title = this.inputCard.title;
@@ -458,7 +356,7 @@ var CardInputComponent = (function () {
         this.card.dateCreated = date.getTime();
         this.card.dateModified = date.getTime();
         console.log("Adding :" + JSON.stringify(this.inputCard.title) + " to storage");
-        this.storage.addCardDetails("Cards", this.card).then(function (data) {
+        this.storage.addCardDetails(this.key, this.card, this.data).then(function (data) {
             if (data != null) {
                 console.log("Content Added :" + JSON.stringify(data));
                 _this.onNewData.emit(_this.msg);
@@ -473,9 +371,13 @@ var CardInputComponent = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
         __metadata("design:type", String)
     ], CardInputComponent.prototype, "key", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
+        __metadata("design:type", Object)
+    ], CardInputComponent.prototype, "data", void 0);
     CardInputComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'card-input',template:/*ion-inline-start:"/Users/adichegu/Koorma/CardsAndSlides/src/components/card-input/card-input.html"*/'\n<form (ngSubmit)="addCard()">\n    <h3>{{key}}</h3>\n      <ion-item>\n        <ion-label floating>Card Title</ion-label>\n        <ion-input type="text" [(ngModel)]="inputCard.title" name="title"></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-label floating>Description</ion-label>\n        <ion-textarea [(ngModel)]="inputCard.content" name="content"></ion-textarea>\n      </ion-item>\n      \n      <button ion-button type="submit">Add Card</button>\n    </form>\n'/*ion-inline-end:"/Users/adichegu/Koorma/CardsAndSlides/src/components/card-input/card-input.html"*/
+            selector: 'card-input',template:/*ion-inline-start:"/Users/adprasad/Code/Apps/CardsAndSlides/src/components/card-input/card-input.html"*/'\n<form (ngSubmit)="addCard()">\n    <h3>{{key}}</h3>\n      <ion-item>\n        <ion-label floating>Card Title</ion-label>\n        <ion-input type="text" [(ngModel)]="inputCard.title" name="title"></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-label floating>Description</ion-label>\n        <ion-textarea [(ngModel)]="inputCard.content" name="content"></ion-textarea>\n      </ion-item>\n      \n      <button ion-button type="submit">Add Card</button>\n    </form>\n'/*ion-inline-end:"/Users/adprasad/Code/Apps/CardsAndSlides/src/components/card-input/card-input.html"*/
         }),
         __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__providers_storage_storage__["a" /* StorageProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__providers_storage_storage__["a" /* StorageProvider */]) === "function" && _b || Object])
     ], CardInputComponent);
@@ -487,7 +389,7 @@ var CardInputComponent = (function () {
 
 /***/ }),
 
-/***/ 273:
+/***/ 271:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -516,7 +418,7 @@ var SlideInputComponent = (function () {
     }
     SlideInputComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'slide-input',template:/*ion-inline-start:"/Users/adichegu/Koorma/CardsAndSlides/src/components/slide-input/slide-input.html"*/'<!-- Generated template for the SlideInputComponent component -->\n<div>\n  {{text}}\n</div>\n'/*ion-inline-end:"/Users/adichegu/Koorma/CardsAndSlides/src/components/slide-input/slide-input.html"*/
+            selector: 'slide-input',template:/*ion-inline-start:"/Users/adprasad/Code/Apps/CardsAndSlides/src/components/slide-input/slide-input.html"*/'<!-- Generated template for the SlideInputComponent component -->\n<div>\n  {{text}}\n</div>\n'/*ion-inline-end:"/Users/adprasad/Code/Apps/CardsAndSlides/src/components/slide-input/slide-input.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], SlideInputComponent);
@@ -527,18 +429,17 @@ var SlideInputComponent = (function () {
 
 /***/ }),
 
-/***/ 274:
+/***/ 272:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_card_list_card_list__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_categories_categories__ = __webpack_require__(197);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -548,7 +449,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-
 
 
 
@@ -565,8 +465,7 @@ var MyApp = (function () {
         // used for an example of ngFor and navigation
         this.pages = [
             { title: 'Home', component: __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */] },
-            { title: 'List', component: __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */] },
-            { title: 'Card List', component: __WEBPACK_IMPORTED_MODULE_6__pages_card_list_card_list__["a" /* CardListPage */] },
+            { title: 'Categories', component: __WEBPACK_IMPORTED_MODULE_5__pages_categories_categories__["a" /* CategoriesPage */] },
         ];
     }
     MyApp.prototype.initializeApp = function () {
@@ -580,41 +479,173 @@ var MyApp = (function () {
     };
     MyApp.prototype.openPage = function (page) {
         // Reset the content nav to have just this page
-        // we wouldn't want the back button to show in this scenario
-        if (page.title === "Card List") {
-            this.nav.setRoot(page.component, {
-                pageKey: "Category",
-                component: __WEBPACK_IMPORTED_MODULE_6__pages_card_list_card_list__["a" /* CardListPage */]
-            });
-        }
-        else {
-            this.nav.setRoot(page.component);
-        }
+        // we wouldn't want the back button to show in this scenario     
+        this.nav.setRoot(page.component);
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */]),
-        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */]) === "function" && _a || Object)
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/adichegu/Koorma/CardsAndSlides/src/app/app.html"*/'<ion-menu [content]="content">\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>Menu</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"/Users/adichegu/Koorma/CardsAndSlides/src/app/app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/adprasad/Code/Apps/CardsAndSlides/src/app/app.html"*/'<ion-menu [content]="content">\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>Menu</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"/Users/adprasad/Code/Apps/CardsAndSlides/src/app/app.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _d || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
     return MyApp;
-    var _a, _b, _c, _d;
 }());
 
 //# sourceMappingURL=app.component.js.map
 
 /***/ }),
 
-/***/ 50:
+/***/ 281:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CardListPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__slides_slides__ = __webpack_require__(282);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_storage_storage__ = __webpack_require__(40);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Generated class for the CardListPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var CardListPage = (function () {
+    function CardListPage(navCtrl, navParams, storage) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.storage = storage;
+        this.inputEnabled = false;
+        this.cards = [];
+        this.key = this.navParams.get("pageKey");
+        console.log("Key is : " + this.key);
+    }
+    CardListPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        this.storage.getDatabyKey(this.key).then(function (data) {
+            console.log("Cards Data = " + JSON.stringify(data));
+            if (data != null) {
+                _this.cards = data;
+            }
+        });
+    };
+    CardListPage.prototype.itemTapped = function (title) {
+        console.log("Item Details : " + JSON.stringify(title));
+        var slidekey = this.key.concat(title);
+        console.log("Child Card Key : " + slidekey);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__slides_slides__["a" /* SlidesPage */], {
+            pageKey: slidekey
+        });
+    };
+    CardListPage.prototype.enableCardInput = function (event, Item) {
+        this.inputEnabled = true;
+    };
+    CardListPage.prototype.updateCards = function (msg) {
+        var _this = this;
+        this.storage.getDatabyKey(this.key).then(function (data) {
+            console.log("Cards Data = " + JSON.stringify(data));
+            _this.cards = data;
+            for (var _i = 0, _a = _this.cards; _i < _a.length; _i++) {
+                var card = _a[_i];
+                console.log("Card title is = " + card.title);
+            }
+        });
+        /* this.cards = this.storage.getData();
+         console.log("Update List : " + this.cards)
+         for ( let card of this.cards){
+             console.log("Card title is = " + card.title)
+         }*/
+        this.inputEnabled = false;
+    };
+    CardListPage.prototype.removeData = function () {
+        this.storage.removeKeyData(this.key);
+    };
+    CardListPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-card-list',template:/*ion-inline-start:"/Users/adprasad/Code/Apps/CardsAndSlides/src/pages/card-list/card-list.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>{{title}}</ion-title>\n    <ion-buttons end>\n    <button  (click)="enableCardInput($event, null)">\n    <ion-icon name="add"></ion-icon>\n    </button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n    \n    <card-input *ngIf="inputEnabled" [key]="key" (onNewData)="updateCards($event)"   ></card-input>\n    <ion-card *ngFor="let card of cards"> \n        <button ion-item (click)="itemTapped(card.title)">{{card.title}}</button>       \n    </ion-card>\n    \n    <button ion-item (click)="removeData($event, null)">Remove Data</button>\n    \n</ion-content>'/*ion-inline-end:"/Users/adprasad/Code/Apps/CardsAndSlides/src/pages/card-list/card-list.html"*/,
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__providers_storage_storage__["a" /* StorageProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__providers_storage_storage__["a" /* StorageProvider */]) === "function" && _c || Object])
+    ], CardListPage);
+    return CardListPage;
+    var _a, _b, _c;
+}());
+
+//# sourceMappingURL=card-list.js.map
+
+/***/ }),
+
+/***/ 282:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SlidesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the SlidesPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var SlidesPage = (function () {
+    function SlidesPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.key = this.navParams.get("pageKey");
+        console.log("Key is : " + this.key);
+    }
+    SlidesPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad SlidesPage');
+        console.log("Key is : " + this.key);
+    };
+    SlidesPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-slides',template:/*ion-inline-start:"/Users/adprasad/Code/Apps/CardsAndSlides/src/pages/slides/slides.html"*/'<!--\n  Generated template for the SlidesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>slides</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/adprasad/Code/Apps/CardsAndSlides/src/pages/slides/slides.html"*/,
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object])
+    ], SlidesPage);
+    return SlidesPage;
+    var _a, _b;
+}());
+
+//# sourceMappingURL=slides.js.map
+
+/***/ }),
+
+/***/ 40:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StorageProvider; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_Storage__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_Storage__ = __webpack_require__(191);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -635,40 +666,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var StorageProvider = (function () {
     function StorageProvider(storage) {
         this.storage = storage;
-        this.cards = [];
         console.log('Hello StorageProvider Provider');
-        this.initializeData();
     }
-    StorageProvider.prototype.initializeData = function () {
-        var _this = this;
-        this.storage.get("Cards").then(function (data) {
-            if (data != undefined) {
-                _this.cards = data;
-            }
-        });
-        this.storage.get("Categories").then(function (data) {
-            if (data != undefined) {
-                _this.cards = data;
-            }
-        });
-    };
-    StorageProvider.prototype.getData = function () {
-        console.log("Current this.cards : " + this.cards);
-        return this.cards;
-    };
     StorageProvider.prototype.getDatabyKey = function (key) {
         return this.storage.get(key).then(function (data) {
             return data;
         }, function (error) {
         });
     };
-    StorageProvider.prototype.addCardDetails = function (key, newEntry) {
+    StorageProvider.prototype.addCardDetails = function (key, newEntry, inputData) {
         var _this = this;
-        //console.log("Adding Card Details : " + card.title, card.content)
-        this.cards.push(newEntry);
+        console.log("Adding new Input Details : " + newEntry.title, newEntry.content);
+        inputData.push(newEntry);
         return new Promise(function (resolve) {
-            _this.storage.set(key, _this.cards).then(function (data) {
-                console.log("Cards Details Stored");
+            _this.storage.set(key, inputData).then(function (data) {
+                console.log("Input Details Stored");
                 return resolve(true);
             }, function (error) {
                 return resolve(false);
@@ -676,10 +688,8 @@ var StorageProvider = (function () {
         });
     };
     StorageProvider.prototype.removeKeyData = function (key) {
-        var _this = this;
         this.storage.remove(key).then(function (data) {
             console.log("All Data Removed related to key : " + key);
-            _this.cards = [];
         });
     };
     StorageProvider = __decorate([
@@ -694,5 +704,5 @@ var StorageProvider = (function () {
 
 /***/ })
 
-},[200]);
+},[198]);
 //# sourceMappingURL=main.js.map

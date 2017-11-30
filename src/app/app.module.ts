@@ -5,12 +5,11 @@ import { IonicStorageModule } from '@ionic/Storage';
 import {HttpModule} from "@angular/http"
 
 import { ComponentsModule } from "../components/components.module"
-//import { FormsModule , ReactiveFormsModule}   from '@angular/forms';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
 import { CardListPage } from "../pages/card-list/card-list"
+import { CategoriesPage } from "../pages/categories/categories"
 import { SlidesPage } from '../pages/slides/slides';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -22,7 +21,7 @@ import { StorageProvider } from '../providers/storage/storage';
     HomePage,
     SlidesPage,
     CardListPage,
-    ListPage
+    CategoriesPage,
   ],
   imports: [
     BrowserModule,
@@ -37,7 +36,7 @@ import { StorageProvider } from '../providers/storage/storage';
     HomePage,
     SlidesPage,
     CardListPage,
-    ListPage
+    CategoriesPage,
   ],
   providers: [
     StatusBar,

@@ -13,12 +13,15 @@ import { NavController, NavParams } from 'ionic-angular';
   templateUrl: 'slides.html',
 })
 export class SlidesPage {
-
+  string : key;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.key = this.navParams.get("pageKey")
+    console.log("Key is : " + this.key )
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad SlidesPage');
+    console.log("Key is : " + this.key )
   }
 
 }

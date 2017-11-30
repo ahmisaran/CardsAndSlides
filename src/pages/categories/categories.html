@@ -9,10 +9,20 @@
   <ion-navbar>
     <ion-title>categories</ion-title>
   </ion-navbar>
-
+  <ion-buttons end>
+    <button  (click)="enableCategoryInput($event, null)">
+    <ion-icon name="add"></ion-icon>
+    </button>
+    </ion-buttons>
 </ion-header>
 
 
 <ion-content padding>
-
+  <card-input *ngIf="inputEnabled" [key]="key" [data]="categories" (onNewData)="updateCategoryList($event)"   ></card-input>
+  <ion-card *ngFor="let category of categories"> 
+      <button ion-item (click)="itemTapped(category.title)">{{category.title}}</button>       
+  </ion-card>
+  
+  <button ion-item (click)="removeData($event, null)">Remove Data</button>
+  
 </ion-content>

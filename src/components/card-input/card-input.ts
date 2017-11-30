@@ -27,10 +27,9 @@ export class CardInputComponent {
 	onNewData : EventEmitter<string> = new EventEmitter<string>();
   
     @Input() key : string
- /*   set key (key : string){
-        console.log("Key sent was  : " + key )
-        this._key = key;
-    }*/
+    @Input() data : Array<cardDetail> = [];
+
+
   constructor(public storage : StorageProvider) {
     console.log('Hello CardInputComponent Component');
     this.inputCard 
@@ -49,6 +48,7 @@ export class CardInputComponent {
   
   addCard(){
       console.log("Input key is ADD : " + this.key)
+      console.log("Data received : " + JSON.stringify(this.data))
       let date = new Date();
       this.card.id = 1;
       this.card.title = this.inputCard.title;
@@ -57,13 +57,12 @@ export class CardInputComponent {
       this.card.dateCreated = date.getTime();
       this.card.dateModified = date.getTime();
       console.log("Adding :" + JSON.stringify(this.inputCard.title) + " to storage")
-      this.storage.addCardDetails("Cards", this.card).then(data=>{
+      this.storage.addCardDetails(this.key, this.card, this.data).then(data=>{
           if ( data != null){
               console.log("Content Added :" + JSON.stringify(data));
           this.onNewData.emit(this.msg);
           }
       })
-      
       
   }
 

@@ -9,7 +9,7 @@ import { SlideInputComponent } from './slide-input/slide-input';
     ],
 	imports: [IonicModule],
 	exports: [CardInputComponent,
-                  SlideInputComponent
+              SlideInputComponent
     ]
 })
 export class ComponentsModule {}
